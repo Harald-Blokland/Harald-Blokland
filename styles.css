@@ -55,6 +55,7 @@ section {
 .heroImg {
   width: 50%;
   border: 1px solid black;
+}
 .about {
   display: flex;
   align-items: center;
@@ -98,4 +99,10 @@ section {
 footer {
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 426px){
+  body{
+    background-color: red;
+  }
 }
